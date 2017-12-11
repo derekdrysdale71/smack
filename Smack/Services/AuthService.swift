@@ -43,6 +43,9 @@ class AuthService {
     }
     
     
+    
+    //API Requests
+    
     func registerUser(email: String, password: String, completion: @escaping CompletionHandler) {
         
         let lowerCaseEmail = email.lowercased()
